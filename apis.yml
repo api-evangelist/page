@@ -1,7 +1,29 @@
 aid: page
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/page.png
 name: Page
-description: Page is a company surfaced as a portfolio company of canaan-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Page is an AI-powered government relations (GR) platform that tracks
+  legislation, regulatory activity, and policy developments across 70+
+  jurisdictions in real time. It provides bill tracking, regulatory affairs
+  monitoring, live hearing and vote alerts, lobbying and parliamentary questions
+  data, smart alerts, AI analysis of policy trends, and detailed politician and
+  staff directories, alongside Wonk — an AI assistant for policy research and
+  document generation. Page serves enterprises, multi-client firms, law firms,
+  government agencies, associations, and nonprofits. It is headquartered in
+  Washington, DC with an additional office in Waterloo, Ontario, and is backed by
+  Canaan Partners. Page holds SOC 2 Type II certification. As of this profile
+  Page exposes no public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/page/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,50 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Government Relations
+- Legislative Intelligence
+- Regulatory Affairs
+- Policy
+- GovTech
+- Artificial Intelligence
+- Compliance
+- SaaS
 apis: []
+common:
+- type: DomainSecurity
+  url: security/page-domain-security.yml
+- type: Website
+  url: https://www.withpage.com
+- type: Blog
+  url: https://www.withpage.com/blog
+- type: ChangeLog
+  url: https://www.withpage.com/changelog
+- type: ChangeLog
+  name: Page product changelog (captured)
+  url: changelog/page-changelog.yml
+- type: PrivacyPolicy
+  url: https://www.withpage.com/privacy-policy
+- type: Login
+  url: https://work.withpage.com/auth/login
+- type: SignUp
+  url: https://www.withpage.com/demo
+- type: TrustCenter
+  url: https://trust.withpage.com
+- type: TrustCenter
+  name: Page trust center (captured)
+  url: security/page-trust-center.yml
+- type: Compliance
+  url: https://www.withpage.com/security
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

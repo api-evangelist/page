@@ -1,0 +1,34 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.withpage.com/changelog
+description: >-
+  Structured capture of Page's dated product changelog. Page is an AI-powered
+  government relations platform; the changelog tracks product feature releases
+  (tracking coverage, notifications, Wonk AI assistant capabilities) rather than
+  a versioned public API. The live changelog is the source of truth; this
+  artifact records the recent window.
+docs: https://www.withpage.com/changelog
+versioning:
+  scheme: dated product release notes
+  current: null
+entries:
+  - date: '2026-07-07'
+    title: Collections
+    highlights:
+      - Collections now work across every record type in Page — curated watchlists for bills, consultations, meetings, news, and more.
+  - date: '2026-06-12'
+    title: Parliamentary Questions Tracking
+    highlights:
+      - New tracking for written questions from Canadian and UK Parliaments, with a dedicated Questions search in Wonk covering multiple jurisdictions.
+  - date: '2026-06-03'
+    title: Inbox Notifications
+    highlights:
+      - Email notifications now cover every content type on Page, including news and publications; set a priority floor to filter alerts by signal strength.
+  - date: '2026-06-01'
+    title: Lobbying Feature Launch
+    highlights:
+      - Lobbying registrations and communication reports now available for federal Canada, US, Ontario, and British Columbia with historical data spanning at least a decade.
+  - date: '2026-05-13'
+    title: Inbox Customization
+    highlights:
+      - The inbox now has a settings page for default filters that persist across sessions and devices.

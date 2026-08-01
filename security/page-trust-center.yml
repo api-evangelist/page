@@ -1,0 +1,26 @@
+generated: '2026-07-20'
+method: searched
+probe: false
+source: https://www.withpage.com/security
+url: https://trust.withpage.com
+description: >-
+  Page's security & compliance posture, captured from withpage.com/security and
+  the Page Trust Center at trust.withpage.com. Page holds SOC 2 Type II
+  certification with controls audited annually by an independent third party and
+  continuously monitored (Vanta). Data is encrypted in transit (TLS 1.2+) and at
+  rest (AES-256), with role-based access controls and multi-factor
+  authentication. This is the searched, human-verified fill for a company with no
+  public API surface.
+certifications:
+  - {name: SOC 2 Type II, availability: audited annually by independent third party, monitoring: continuous}
+controls:
+  encryption_in_transit: TLS 1.2+
+  encryption_at_rest: AES-256
+  access: role-based access controls; multi-factor authentication
+  monitoring: Vanta automated evidence collection and real-time compliance visibility
+docs:
+  - https://www.withpage.com/security
+  - https://trust.withpage.com
+evidence:
+  - {source: https://www.withpage.com/security, keywords: [soc 2 type ii, tls 1.2, aes-256, vanta, trust center]}
+  - {source: https://trust.withpage.com, kind: trust-center, note: live Page Trust Center (200; content JS-rendered)}
